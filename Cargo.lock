@@ -12,6 +12,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "auto-commit"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+]
+
+[[package]]
 name = "autocfg"
 version = "1.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -86,13 +93,6 @@ dependencies = [
  "futures-task",
  "pin-project-lite",
  "slab",
-]
-
-[[package]]
-name = "git-auto-commit"
-version = "0.1.0"
-dependencies = [
- "chrono",
 ]
 
 [[package]]
